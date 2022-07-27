@@ -1,0 +1,6 @@
+requests==2.27.1
+pymongo==4.0.1
+configparser==5.2.0
+python-telegram-bot==13.11
+python-binance==1.0.14
+dnspython==2.2.0
