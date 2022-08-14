@@ -84,10 +84,10 @@ def start(update, context):
          update.message.reply_text(name, parse_mode="Markdown")
 
       elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
 
 def price(update, context):
@@ -116,11 +116,11 @@ def price(update, context):
          update.message.reply_text("*⚜️ Coin BTC, BNB, ETH, ONE...*", parse_mode="Markdown")
 
       elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
          itme=9999
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
 
 def addapi(update, context):
@@ -154,15 +154,15 @@ def addapi(update, context):
 
          else:
             time.sleep(1)
-            update.message.reply_text("*⚠️ You have reached your limit ( "+str(acc[1])+" accounts )\n\n⚠️ You cannot add other accounts at the moment\n\n📞 Contact the bot developer to upgrade your account @xx_070*", parse_mode="Markdown")
+            update.message.reply_text("*⚠️ You have reached your limit ( "+str(acc[1])+" accounts )\n\n⚠️ You cannot add other accounts at the moment\n\n📞 Contact the bot developer to upgrade your account @py_devloper_bots*", parse_mode="Markdown")
             itme1=9999
 
       elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
          itme1=9999
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
       itme1=9999
 
@@ -200,10 +200,10 @@ def getapi(update, context):
             update.message.reply_text("*⚠️ There are no accounts currently affiliated with you.*", parse_mode="Markdown")
 
       elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
 
 def buy(update, context):
@@ -242,11 +242,11 @@ def buy(update, context):
                itme2=9999
       
       elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
          itme2=9999
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
 
 def buylimit(update, context):
@@ -286,11 +286,11 @@ def buylimit(update, context):
                itme3=9999
       
       elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
          itme3=9999
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
 
 def sale(update, context):
@@ -330,11 +330,11 @@ def sale(update, context):
                itme4=9999
 
       elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
          itme4=9999
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
 
 def salelimit(update, context):
@@ -374,10 +374,10 @@ def salelimit(update, context):
                itme5=9999
       
       elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
 
 def salelimitstop(update, context):
@@ -418,10 +418,10 @@ def salelimitstop(update, context):
                itme6=9999
 
       elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
 
 def getorders(update, context):
@@ -460,10 +460,10 @@ def getorders(update, context):
             update.message.reply_text("*⚠️ You have not placed any order yet.*", parse_mode="Markdown")
 
       elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
 
 def deleteapi(update, context):
@@ -494,10 +494,10 @@ def deleteapi(update, context):
             update.message.reply_text("*⚠️ There are no accounts currently affiliated with you.*", parse_mode="Markdown")
 
       elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
 
 def deletalleapi(update, context):
@@ -529,10 +529,10 @@ def deletalleapi(update, context):
             update.message.reply_text("*⚠️ There are no accounts currently affiliated with you.*", parse_mode="Markdown")
 
       elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
 
 def editapi(update, context):
@@ -564,194 +564,11 @@ def editapi(update, context):
             update.message.reply_text("*⚠️ There are no accounts currently affiliated with you.*", parse_mode="Markdown")
 
       elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
-
-def addads(update, context):
-   global itme, itme2, itme1, itme4, itme5, itme6, full_name
-   global itme3, itme7, itme8, itme9, itme10, ads, itme11, itme12, itme13
-   itme=9999
-   itme1=9999
-   itme2=9999
-   itme3=9999
-   itme4=9999
-   itme5=9999
-   itme6=9999
-   itme7=9999
-   itme8=9999
-   itme9=9999
-   itme11=9999
-   itme12=9999
-   itme13=9999
-   acc = user.findacc(collection = "acc", Username = str(update.message.chat_id))
-   if acc != None:
-      if acc[0] == "ON":
-         countcomment = user.countcomment(collection = "comment", Username = str(update.message.chat_id))
-         if countcomment < int(acc[4]):
-            ads=''
-            full_name=''
-            itme10=65
-            update.message.reply_text("*✳️ Ads name*", parse_mode="Markdown")
-
-         else:
-            time.sleep(1)
-            update.message.reply_text("*⚠️ You have reached your ads limit ( "+str(acc[5])+" ads )\n\n⚠️ You cannot add other ads at the moment\n\n📞 Contact the bot developer to upgrade your account @xx_070*", parse_mode="Markdown")
-
-      elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
-
-   else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
-      update.message.reply_text(name, parse_mode="Markdown")
-
-def editads(update, context):
-   global itme, itme1, itme2, itme3, itme4, itme5, itme6, itme7, itme8, itme9, new_name, itme10
-   global itme11, ads, full_name, itme12, itme13
-   itme=9999
-   itme1=9999
-   itme2=9999
-   itme3=9999
-   itme4=9999
-   itme5=9999
-   itme6=9999
-   itme7=9999
-   itme8=9999
-   itme9=9999
-   itme10=9999
-   itme12=9999
-   itme13=9999
-   acc = user.findacc(collection = "acc", Username = str(update.message.chat_id))
-   if acc != None:
-      if acc[0] == "ON":
-         countcomment = user.countcomment(collection = "comment", Username = str(update.message.chat_id))
-         if countcomment > 0:
-            itme11=70
-            ads=''
-            full_name=''
-            update.message.reply_text('*⚜️ The name of the ad you want to edit*', parse_mode="Markdown")
-
-         else:
-            update.message.reply_text("*⚠️ There are no ads currently affiliated with you.*", parse_mode="Markdown")
-
-      elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
-
-   else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
-      update.message.reply_text(name, parse_mode="Markdown")
-
-def deletead(update, context):
-   global itme, itme1, itme2, itme3, itme4, itme5, itme6, itme7, itme8, itme9, itme10, itme11
-   global full_name, itme12, itme13
-   itme=9999
-   itme1=9999
-   itme2=9999
-   itme3=9999
-   itme4=9999
-   itme5=9999
-   itme6=9999
-   itme7=9999
-   itme8=9999
-   itme9=9999
-   itme10=9999
-   itme11=9999
-   itme13=9999
-   acc = user.findacc(collection = "acc", Username = str(update.message.chat_id))
-   if acc != None:
-      if acc[0] == "ON":
-         countcomment = user.countcomment(collection = "comment", Username = str(update.message.chat_id))
-         if countcomment > 0:
-            itme12=75
-            full_name=''
-            update.message.reply_text("*⚜️ Name of the ad*", parse_mode="Markdown")
-
-         else:
-            update.message.reply_text("*⚠️ There are no ads currently affiliated with you.*", parse_mode="Markdown")
-
-      elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
-
-   else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
-      update.message.reply_text(name, parse_mode="Markdown")
-
-def deletalleads(update, context):
-   global itme, itme1, itme2, itme3, itme4, itme5, itme6, itme7, itme8, itme9, itme10, itme11
-   global itme12, itme13
-   itme=9999
-   itme1=9999
-   itme2=9999
-   itme3=9999
-   itme4=9999
-   itme5=9999
-   itme6=9999
-   itme7=9999
-   itme8=9999
-   itme9=9999
-   itme10=9999
-   itme11=9999
-   itme12=9999
-   acc = user.findacc(collection = "acc", Username = str(update.message.chat_id))
-   if acc != None:
-      if acc[0] == "ON":
-         countcomment = user.countcomment(collection = "comment", Username = str(update.message.chat_id))
-         if countcomment > 0:
-            itme13=80
-            update.message.reply_text("*⚠️ Warning, you are about to delete all ads.*", parse_mode="Markdown")
-            update.message.reply_text('*❓ Are You Sure? send yes or no*', parse_mode="Markdown")
-
-         else:
-            update.message.reply_text("*⚠️ There are no ads currently affiliated with you.*", parse_mode="Markdown")
-
-      elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
-
-   else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
-      update.message.reply_text(name, parse_mode="Markdown")
-
-def getads(update, context):
-   global itme, itme1, itme2, itme3, itme4, itme5, itme6, itme7, itme8, itme9, itme10, itme11
-   global itme12, itme13
-   itme=9999
-   itme1=9999
-   itme2=9999
-   itme3=9999
-   itme4=9999
-   itme5=9999
-   itme6=9999
-   itme7=9999
-   itme8=9999
-   itme9=9999
-   itme10=9999
-   itme11=9999
-   itme12=9999
-   itme13=9999
-   acc = user.findacc(collection = "acc", Username = str(update.message.chat_id))
-   if acc != None:
-      if acc[0] == "ON":
-         countcomment = user.countcomment(collection = "comment", Username = str(update.message.chat_id))
-         if countcomment > 0:
-            findcomment = user.findapi(collection = "comment", Username = str(update.message.chat_id))
-            for ap in findcomment[0]:
-               Name = ap["Name"]
-               Ads= ap["Ads"]
-               Date = ap["Date"]
-               update.message.reply_text("*🏷  Name  ➡️  *`"+Name+"`\n\n*✳️  Ads  ➡️  *`"+str(Ads)+"`\n\n*🕔  Date created  ➡️  *`"+Date+"`", parse_mode="Markdown")
-
-         else:
-            update.message.reply_text("*⚠️ There are no ads currently affiliated with you.*", parse_mode="Markdown")
-
-      elif acc[0] == "OFF":
-         update.message.reply_text("*The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
-
-   else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
-      update.message.reply_text(name, parse_mode="Markdown")
-
 
 def handlmsg(update, context):
    global itme, coin, currency
@@ -1519,7 +1336,7 @@ def handlmsg(update, context):
             ads = str(update.message.text)
             user.insertcomment(collection = "comment", Username = str(update.message.chat_id), Comment = ads, Name = full_name, Date = time_now())
             update.message.reply_text("*🚨🚨 Ads are posted 2 times a week\n\n1️⃣ Day 1: By placing your ad in the comments of random Instagram posts related to trading\n\n2️⃣ Day 2: By placing your ad in a message on Instagram to random people interested in trading*", parse_mode="Markdown")
-            update.message.reply_text("*✅ Your ad has been successfully added*`\n\n♻️ Ad results are automatically published in our channel 👉🏻 `*@botcrypto1*`\n\n🚨 If your ad does not appear within a week at most, talk to the bot developer 👉🏻` *@xx_070*", parse_mode="Markdown")
+            update.message.reply_text("*✅ Your ad has been successfully added*`\n\n♻️ Ad results are automatically published in our channel 👉🏻 `*@botcrypto1*`\n\n🚨 If your ad does not appear within a week at most, talk to the bot developer 👉🏻` *@py_devloper_bots*", parse_mode="Markdown")
 
          if itme11 == 70:
             full_name = str(update.message.text).upper()
@@ -1534,7 +1351,7 @@ def handlmsg(update, context):
          if itme11 == 71:
             ads = str(update.message.text)
             user.editspecificcomment(collection = "comment", Username = str(update.message.chat_id), Name = full_name, new_info = ads)
-            update.message.reply_text("*✅ Your ad has been successfully modified*`\n\n♻️ Ad results are automatically published in our channel 👉🏻 `*@botcrypto1*`\n\n🚨 If your ad does not appear within a day at most, talk to the bot developer 👉🏻` *@xx_070*", parse_mode="Markdown")
+            update.message.reply_text("*✅ Your ad has been successfully modified*`\n\n♻️ Ad results are automatically published in our channel 👉🏻 `*@botcrypto1*`\n\n🚨 If your ad does not appear within a day at most, talk to the bot developer 👉🏻` *@py_devloper_bots*", parse_mode="Markdown")
          
          if itme12 == 75:
             full_name = str(update.message.text).upper()
@@ -1582,10 +1399,10 @@ def handlmsg(update, context):
          itme13 += 1
 
       elif acc[0] == "OFF":
-         update.message.reply_text("*⚠️ The account is currently suspended 🔒, contact the bot developer @xx_070 ⚠️*", parse_mode="Markdown")
+         update.message.reply_text("*⚠️ The account is currently suspended 🔒, contact the bot developer @py_devloper_bots ⚠️*", parse_mode="Markdown")
 
    else:
-      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @xx_070*'
+      name = '*📋 ACCOUNT \n\n📍 Salam ' + str(update.effective_user.first_name).upper() + '\n\n⛔️ You do not have an account with us at the moment, copy this ID *`'+str(update.message.chat_id)+'`* and give it to the bot developer.\n\n The official account of the bot developer @py_devloper_bots*'
       update.message.reply_text(name, parse_mode="Markdown")
 
 updater = Updater(token, use_context=True)
@@ -1603,11 +1420,6 @@ dp.add_handler(CommandHandler("get_orders", getorders))
 dp.add_handler(CommandHandler("delete_user_account", deleteapi))
 dp.add_handler(CommandHandler("delete_all_users_accounts", deletalleapi))
 dp.add_handler(CommandHandler("edit_name_account", editapi))
-dp.add_handler(CommandHandler("add_ads", addads))
-dp.add_handler(CommandHandler("edit_ads", editads))
-dp.add_handler(CommandHandler("delete_ad", deletead))
-dp.add_handler(CommandHandler("delete_all_ads", deletalleads))
-dp.add_handler(CommandHandler("get_ads", getads))
 dp.add_handler(MessageHandler(Filters.text, handlmsg))
 updater.start_polling()
 updater.idle()
